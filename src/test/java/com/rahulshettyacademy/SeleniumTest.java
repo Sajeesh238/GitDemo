@@ -9,6 +9,7 @@ public class SeleniumTest {
     public void browserAutomation() {
 
         System.out.println("QAClickAcademy");
+        System.out.println("RahulShettyAcademy");
     }
 
     @Test
