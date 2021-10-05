@@ -23,4 +23,10 @@ public class SeleniumTest {
 
         System.out.println("ApplicationWebElements");
     }
+
+    @Test
+    public void appsStartUpUI() {
+
+        System.out.println("StartUpAnimation");
+    }
 }
