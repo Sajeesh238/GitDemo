@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/sajeeshpandhaloor/Desktop/MyDesktop/UdemySelenium/Mavenjava">
+        <classes>
+            <class name="com.rahulshettyacademy.AppiumTest">
+                <methods>
+                    <include name="androidApps"/>
+                    <include name="iOSApps"/>
+                </methods>
+            </class>
+
+            <class name="com.rahulshettyacademy.SeleniumTest">
+                <methods>
+                    <include name="browserAutomation"/>
+                    <include name="elementsUI"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
