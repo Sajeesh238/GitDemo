@@ -17,4 +17,10 @@ public class SeleniumTest {
 
         System.out.println("PractiseWebElements");
     }
+
+    @Test
+    public void appsUI() {
+
+        System.out.println("ApplicationWebElements");
+    }
 }

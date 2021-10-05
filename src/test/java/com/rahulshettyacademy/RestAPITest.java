@@ -24,4 +24,10 @@ public class RestAPITest {
 
         System.out.println("Tweets");
     }
+
+    @Test
+    public void deleteSampleApplication() {
+
+        System.out.println("AppsDeleted");
+    }
 }
